@@ -4,10 +4,9 @@
 
 body * {
 
-	-webkit-box-sizing: border-box;
-  	-moz-box-sizing: border-box;
-  	box-sizing: border-box;
-
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 header, main, nav, article, aside, footer, div {
@@ -19,20 +18,18 @@ header, main, nav, article, aside, footer, div {
 
 #container {
 
-	width: 100%;
-	max-width: 1000px;	
-	margin: auto;
-	font-family: 'Encode Sans Expanded', sans-serif;
-	
+    width: 100%;
+    max-width: 1000px;  
+    margin: auto;
+    font-family: 'Encode Sans Expanded', sans-serif; 
 }
 
- /* HEADER */
+/* HEADER */
 
 header {
 
- 	margin-top: 10px;
- 	text-align: center;
-
+    margin-top: 10px;
+    text-align: center;
 }
 
 /* BILDE CREDIT */
@@ -53,11 +50,9 @@ section p {
     overflow: hidden;
 }
 
-
 #navbar li {
    
     float: left;
-
 }    
 
 
@@ -68,16 +63,15 @@ section p {
     padding: 14px 16px;
     text-decoration: none;
     display: block;
-
 }
 
 #navbar a:hover {
 
-	color: #E0ECF8;
- 	cursor: pointer;
+    color: #E0ECF8;
+    cursor: pointer;
 }
 
- /* NAVBAR DROPDOWN */
+/* NAVBAR DROPDOWN */
  
  li.dropdown {
 
@@ -114,7 +108,6 @@ section p {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
 }
 
 #brødsmuler ul li {
@@ -142,7 +135,7 @@ section p {
     color: #E0ECF8;
 } 
 
- /* MAIN */
+/* MAIN */
 
 hr {
 
@@ -158,14 +151,13 @@ hr {
 
 article {
 
- 	background-color: #F2F
- 	margin-top: 10px;
- 	margin-bottom: 20px; 
- 	padding: 10px;
- 	width: 50%;
- 	font-size: 10pt;
+    background-color: #F2F
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    width: 50%;
+    font-size: 10pt;
     line-height: 25px;
- 	
 }
 
 article a:hover {
@@ -193,7 +185,6 @@ article.artikkelsider a:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 10pt;
-
 }
 
 .artikkelsider {
@@ -203,10 +194,9 @@ article.artikkelsider a:hover {
 
 }
 
-
 #bunnartikkel {
 
- 	width: 100%;
+    width: 100%;
 }
 
 img.pencil {
@@ -214,39 +204,33 @@ img.pencil {
     float: left;
     width: 30%;
     margin-bottom: 30px;
-
 }
-
 
 /* ASIDE */ 
 
 aside  {
 
- 	float: right;
+    float: right;
     width: 45%;
- 	max-width: 300px;
- 	margin-top: 10px auto;
- 	padding: 10px;
- 	font-size: 10pt;
+    max-width: 300px;
+    margin-top: 10px auto;
+    padding: 10px;
+    font-size: 10pt;
     line-height: 25px;
-
 }
 
- /* TABLES */
+/* TABLES */
 
 #table1, #table2, #bunnartikkel, table, th, tr, td {
 
     border-collapse: collapse;
     margin-bottom: 10px;
     padding: 10px;
-
 }
 
 th, td {
 
     border: 1px solid;
-    background-color: white;
-
 }  
 
 #table2 {
@@ -265,33 +249,31 @@ table tr td a:hover {
     cursor: pointer;
 }
 
-#table2 td:first-child {
+#table2 tr:nth-child(even) {
 
-    background-color: #E0ECF8;;
+    background-color: #E0ECF8;
 }
 
-#table2 td:nth-child(even) {
+#table2 tr:nth-child(odd) {
 
     background-color: white;
 }
-  
- /* FOOTER */
+
+/* FOOTER */
 
 footer {
 
- 	clear: both;
- 	background-color: white;
- 	padding: 15px 25px;
-
+    clear: both;
+    background-color: white;
+    padding: 15px 25px;
 }
 
 footer a {
 
- 	text-decoration: none;
- 	color: black;
- 	padding-left: 25px;
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
     float: right;
-
 }
 
 footer p {
@@ -302,8 +284,8 @@ footer p {
 
 footer a:hover {
 
- 	color: #E0ECF8;
- 	cursor: pointer;
+    color: #E0ECF8;
+    cursor: pointer;
 }
 
 .fa { /* FONT ICON */
@@ -318,7 +300,7 @@ footer a:hover {
     padding: 2px;
 }
 
- /* RESURSSER */
+/* RESURSSER */
 
 ol li a {
 
