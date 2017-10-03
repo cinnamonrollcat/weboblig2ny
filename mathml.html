@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Oblig 2</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="stilark.css">
+		<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+		<script src="https://use.fontawesome.com/18d18745e6.js"></script>
+	</head>
+
+	<body>
+		<div id="container">
+			<header>
+					<h1>Camilla Kolstad sitt studieweb</h1>
+					<hr />
+				</header>
+
+				<nav id="navbar">
+					<ul>
+						<li><a href="index.html">Hjem</a></li>
+						<li class="dropdown"><a href="#">Artikler</a>
+							<ul>
+								<div class="dropdowncontent">
+									<li><a href="mathml.html">MathML</a></li>
+									<li><a href="svg.html">SVG</a></li>
+									<li><a href="git.html">Git</a></li>
+								</div>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="#">Linkearkiv</a>
+							<ul>
+								<div class="dropdowncontent">
+									<li><a href="resursser.html">Resursser</a></li>
+								</div>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+
+				<main> 
+					 <nav id="brødsmuler">
+						<ul> 
+						  <li><a href="mathml.html">MathML</a></li> 
+						  <li><a href="#">Artikler</a></li>
+						  <li><a href="index.html">Hjem</a></li>
+						</ul>
+					</nav>	
+
+					<article class="artikkelsider">
+					<h2>MathML</h2>
+					<p>MathML står for Mathematical Markup Language. Det er et språk for å uttrykke matte på internett. Språket deles inn i to deler, innhold og presentasjon. Content-MathML beholder semantikken og meningen i det matematiske uttrykket, mens Presentation-MathML beskriver hvordan det skal vises. P-MathML lar bruker ha kontroll over hvordan uttrykket skal se ut, for eksempel farger, størrelse og symboler. Man skriver MathML akkurat som HTML, med tagger og attributter. Før man hadde dette språket, så var det vanlig å sette inn bilder av matematiske formler. Dette er et problem, ettersom man ikke har mulighet til å for eksempel kopiere formelen. Bildet vil også miste kvalitet ved opp eller nedskalering. En annen fordel med å bruke dette språket er for de som er svaksynte. MathML gir deg nemlig mulighet til å få matematikken lest opp. Noen eksempler på uttrykk skrevet i MathML kan du se under.</p>
+					<div>
+						<math>
+						 <mi>x</mi>
+						  <mo>+</mo>
+						  <mn>5</mn>
+						  <mo>=</mo>
+						  <mn>0</mn>
+						</math> <br />
+
+					<math>
+						<mrow>
+						   <apply>
+						     <power/>
+						     <apply>
+						       <plus/>
+						       <ci>a</ci>
+						       <mo>+</mo>
+						       <ci>b</ci>
+						     </apply>
+						     <mo>=</mo>
+						     <cn>2</cn>
+						   </apply>
+						 </mrow> 
+						</math> <br />
+
+						  <math>
+						    <mrow>
+						      <msup>
+						        <mi>x</mi>
+						        <mn>2</mn>
+						      </msup>
+						      <mo>+</mo>
+						      <mrow>
+						        <mn>4</mn>
+						        <mo>&#x2062;</mo>
+						        <mi>x</mi>
+						      </mrow>
+						      <mo>+</mo>
+						      <mn>4</mn>
+						    </mrow>
+						    <mo>=</mo>
+						    <mn>0</mn>
+						  </mrow>
+						</math>
+					</div>
+					</article>
+				</main>
+
+				<hr />
+
+				<footer>
+					<a href="omsiden.html">Om siden</a>
+					<a target="_blank" href="https://www.facebook.com/camilla.kolstad.54">Facebook</a>
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					<p>&copy; Camilla Kolstad 2017</p>
+				</footer>
+		</div>
+	</body>
