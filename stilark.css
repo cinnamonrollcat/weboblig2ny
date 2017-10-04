@@ -102,7 +102,7 @@ section p {
 
 /* BRØDSMULER */
 
-#brødsmuler ul {
+#brodsmuler ul {
 
     list-style-type: none;
     margin: 0;
@@ -110,17 +110,17 @@ section p {
     overflow: hidden;
 }
 
-#brødsmuler ul li {
+#brodsmuler ul li {
 
     display: inline;
 }
 
-#brødsmuler li {
+#brodsmuler li {
 
     float: right;
 }
 
-#brødsmuler a {
+#brodsmuler a {
 
     color: black;
     text-align: center;
@@ -130,7 +130,7 @@ section p {
     font-size: 8pt;
 } 
 
-#brødsmuler ul li a:hover {
+#brodsmuler ul li a:hover {
 
     color: #E0ECF8;
 } 
@@ -151,7 +151,6 @@ hr {
 
 article {
 
-    background-color: #F2F
     margin-top: 10px;
     margin-bottom: 20px; 
     padding: 10px;
@@ -303,12 +302,6 @@ footer a:hover {
 
     float: right;
     margin-top: 3px;
-}
-
-.fa-link {
-
-    float: left;
-    padding: 2px;
 }
 
 /* RESURSSER */
