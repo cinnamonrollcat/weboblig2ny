@@ -29,7 +29,7 @@ header, main, nav, article, aside, footer, div {
 header {
 
     margin-top: 10px;
-    text-align: center;
+    text-align: center;'
 }
 
 /* BILDE CREDIT */
@@ -208,6 +208,12 @@ img.pencil {
 
 img.mathml {
 
+    margin-top: 30px;
+}
+
+img.git {
+
+    width: 100%;
     margin-top: 30px;
 }
 
